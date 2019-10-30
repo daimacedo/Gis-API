@@ -1,0 +1,50 @@
+{
+  "definitions": {},
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "messageapierror"
+  ],
+  "properties": {
+    "messageapierror": {
+      "$id": "#/properties/messageapierror",
+      "type": "object",
+      "required": [
+        "status",
+        "message",
+        "messageSubErrors"
+      ],
+      "properties": {
+        "status": {
+          "$id": "#/properties/messageapierror/properties/status",
+          "type": "string",
+          "title": "The Status Schema",
+          "default": "",
+          "examples": [
+            "NOT_FOUND"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "message": {
+          "$id": "#/properties/messageapierror/properties/message",
+          "type": "string",
+          "title": "The Message Schema",
+          "default": "",
+          "examples": [
+            "Not Found"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "messageSubErrors": {
+          "$id": "#/properties/messageapierror/properties/messageSubErrors",
+          "type": "null",
+          "title": "The Messagesuberrors Schema",
+          "default": null,
+          "examples": [
+            null
+          ]
+        }
+      }
+    }
+  }
+}

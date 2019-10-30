@@ -1,0 +1,128 @@
+{
+  "definitions": {},
+  "required": [
+    "numero_proposta",
+    "nome_segurado",
+    "cpf_cnpj",
+    "area_segurada",
+    "municipio",
+    "uf",
+    "cultura",
+    "ano_safra",
+    "inicio_vigencia",
+    "fim_vigencia",
+    "identificador"
+  ],
+  "properties": {
+    "numero_proposta": {
+      "$id": "#/properties/numero_proposta",
+      "type": "string",
+      "title": "The Numero_proposta Schema",
+      "default": "",
+      "examples": [
+        "244309984"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "nome_segurado": {
+      "$id": "#/properties/nome_segurado",
+      "type": "string",
+      "title": "The Nome_segurado Schema",
+      "default": "",
+      "examples": [
+        "Marcelo Keiti Nakamura"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "cpf_cnpj": {
+      "$id": "#/properties/cpf_cnpj",
+      "type": "string",
+      "title": "The Cpf_cnpj Schema",
+      "default": "",
+      "examples": [
+        "33697629867"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "area_segurada": {
+      "$id": "#/properties/area_segurada",
+      "type": "string",
+      "title": "The Area_segurada Schema",
+      "default": "",
+      "examples": [
+        "28.73"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "municipio": {
+      "$id": "#/properties/municipio",
+      "type": "string",
+      "title": "The Municipio Schema",
+      "default": "",
+      "examples": [
+        "LUTECIA"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "uf": {
+      "$id": "#/properties/uf",
+      "type": "string",
+      "title": "The Uf Schema",
+      "default": "",
+      "examples": [
+        "SP"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "cultura": {
+      "$id": "#/properties/cultura",
+      "type": "string",
+      "title": "The Cultura Schema",
+      "default": "",
+      "examples": [
+        "1 - cana-de-a%C3%A7ucar"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "ano_safra": {
+      "$id": "#/properties/ano_safra",
+      "type": "string",
+      "title": "The Ano_safra Schema",
+      "default": "",
+      "examples": [
+        "20182019"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "inicio_vigencia": {
+      "$id": "#/properties/inicio_vigencia",
+      "type": "string",
+      "title": "The Inicio_vigencia Schema",
+      "default": "",
+      "examples": [
+        "19/01/2018"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "fim_vigencia": {
+      "$id": "#/properties/fim_vigencia",
+      "type": "string",
+      "title": "The Fim_vigencia Schema",
+      "default": "",
+      "examples": [
+        "19/01/2019"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "identificador": {
+      "$id": "#/properties/identificador",
+      "type": "string",
+      "title": "The Identificador Schema",
+      "default": "",
+      "examples": [
+        "39f9ebb9-9361-4433-967c-a4792942b8ef"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
